@@ -255,12 +255,12 @@ class ChessGame:
         self.canvas.delete("piece")  
 
         self.images = {
-            "wK": tk.PhotoImage(file="w_king.png"),
-            "bK": tk.PhotoImage(file="b_king.png"),
-            "wQ": tk.PhotoImage(file="w_queen.png"),
-            "bQ": tk.PhotoImage(file="b_queen.png"),
-            "wP": tk.PhotoImage(file="w_pawn.png"),
-            "bP": tk.PhotoImage(file="b_pawn.png")
+            "wK": tk.PhotoImage(file="images/w_king.png"),
+            "bK": tk.PhotoImage(file="images/b_king.png"),
+            "wQ": tk.PhotoImage(file="images/w_queen.png"),
+            "bQ": tk.PhotoImage(file="images/b_queen.png"),
+            "wP": tk.PhotoImage(file="images/w_pawn.png"),
+            "bP": tk.PhotoImage(file="images/b_pawn.png")
         }
 
         cell_size = 50
